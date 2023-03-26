@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #C9E2D6
 }
 
 code {
@@ -12,7 +13,5 @@ code {
     monospace;
 }
 
-.card {
-  width: 100px;
-  height: 200px
-}
+
+

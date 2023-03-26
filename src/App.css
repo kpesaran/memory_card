@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #C9E2D6
 }
 
 .App-logo {
@@ -26,6 +27,41 @@
 
 .App-link {
   color: #61dafb;
+}
+.card {
+  width: 100px;
+  height: 200px;
+  
+} 
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  margin: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.card {
+  padding: 10px;
+  width: 220px;
+  height: 200px
+
+}
+
+.card-img {
+  cursor: pointer;
+  width: auto;
+  height: 140px
+}
+
+/* When the screen size is less than 960px, 
+the grid becomes a 3-column grid */
+@media screen and (max-width: 960px) {
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @keyframes App-logo-spin {
